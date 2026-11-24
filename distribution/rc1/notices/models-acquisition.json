@@ -1,0 +1,133 @@
+{
+  "schema": "capture-masking-model-acquisition-v1",
+  "checked_at": "2026-11-19",
+  "policy": "bundle_verified_unchanged_models_offline",
+  "first_run_download_required": false,
+  "personal_input_upload_required": false,
+  "ner": {
+    "model_id": "seongyeon1/ko-pii-ner-roberta-base",
+    "revision": "95a3af685dccf4bb3f7fff6fc81146fed71500bb",
+    "license": "CC-BY-SA-4.0",
+    "modified": false,
+    "files": [
+      {
+        "name": "README.md",
+        "bytes": 8410,
+        "sha256": "70bc716fe98f9b3025387be048d0be46cb99a7cfea3506afedd3fc9d44c3e040",
+        "url": "https://huggingface.co/seongyeon1/ko-pii-ner-roberta-base/resolve/95a3af685dccf4bb3f7fff6fc81146fed71500bb/README.md",
+        "package_path": "models/name/README.md"
+      },
+      {
+        "name": "config.json",
+        "bytes": 2765,
+        "sha256": "6643a877c1462699bbbf176a4826a0a056add0b4cd614f16a3b49ed47371e892",
+        "url": "https://huggingface.co/seongyeon1/ko-pii-ner-roberta-base/resolve/95a3af685dccf4bb3f7fff6fc81146fed71500bb/config.json",
+        "package_path": "models/name/config.json"
+      },
+      {
+        "name": "tokenizer.json",
+        "bytes": 752252,
+        "sha256": "372ce7b5703114c4d989008ce3b2e207f6fee6f3f1c1f07144ed646686d1a665",
+        "url": "https://huggingface.co/seongyeon1/ko-pii-ner-roberta-base/resolve/95a3af685dccf4bb3f7fff6fc81146fed71500bb/tokenizer.json",
+        "package_path": "models/name/tokenizer.json"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 1284,
+        "sha256": "8b5dfbc516df7c4fc4c43cab0d29bd57e76856ce22f38ac26bb1fa3db158cd25",
+        "url": "https://huggingface.co/seongyeon1/ko-pii-ner-roberta-base/resolve/95a3af685dccf4bb3f7fff6fc81146fed71500bb/tokenizer_config.json",
+        "package_path": "models/name/tokenizer_config.json"
+      },
+      {
+        "name": "special_tokens_map.json",
+        "bytes": 971,
+        "sha256": "63cd5b53789b3b5ae2c3d7aa377bcba1557ff0b41dc69ce07b94350ea32291c2",
+        "url": "https://huggingface.co/seongyeon1/ko-pii-ner-roberta-base/resolve/95a3af685dccf4bb3f7fff6fc81146fed71500bb/special_tokens_map.json",
+        "package_path": "models/name/special_tokens_map.json"
+      },
+      {
+        "name": "vocab.txt",
+        "bytes": 248477,
+        "sha256": "1ad4978b5dbe269dcc402a3c6eb71ceab21d712bca3b7d3b9994845e54cdcb39",
+        "url": "https://huggingface.co/seongyeon1/ko-pii-ner-roberta-base/resolve/95a3af685dccf4bb3f7fff6fc81146fed71500bb/vocab.txt",
+        "package_path": "models/name/vocab.txt"
+      },
+      {
+        "name": "model.safetensors",
+        "bytes": 440260132,
+        "sha256": "ca27622d097f3101f00ddee725959bdb49a68303c76c58ae579461bb54a20f35",
+        "url": "https://huggingface.co/seongyeon1/ko-pii-ner-roberta-base/resolve/95a3af685dccf4bb3f7fff6fc81146fed71500bb/model.safetensors",
+        "package_path": "models/name/model.safetensors"
+      }
+    ]
+  },
+  "ocr": {
+    "model_id": "RapidAI/RapidOCR",
+    "revision": "v3.10.0",
+    "license": "Apache-2.0",
+    "registry_revision": "bd941dae09da793e76c6ba15c7aaf40f8424232a",
+    "files": [
+      {
+        "name": "ch_PP-OCRv5_det_server.onnx",
+        "bytes": 88118768,
+        "sha256": "0f8846b1d4bba223a2a2f9d9b44022fbc22cc019051a602b41a7fda9667e4cad",
+        "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.10.0/onnx/PP-OCRv5/det/ch_PP-OCRv5_det_server.onnx",
+        "package_path": "assets/rapid/ch_PP-OCRv5_det_server.onnx"
+      },
+      {
+        "name": "korean_PP-OCRv5_rec_mobile.onnx",
+        "bytes": 13488748,
+        "sha256": "cd6e2ea50f6943ca7271eb8c56a877a5a90720b7047fe9c41a2e541a25773c9b",
+        "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.10.0/onnx/PP-OCRv5/rec/korean_PP-OCRv5_rec_mobile.onnx",
+        "package_path": "assets/rapid/korean_PP-OCRv5_rec_mobile.onnx"
+      }
+    ],
+    "dictionary": {
+      "name": "embedded-character.txt",
+      "source": "korean_PP-OCRv5_rec_mobile.onnx custom_metadata_map.character",
+      "sha256": "2193f5dd0c62a4f268902b5d96dadfec3908d299afa9a6e5cad2c6a96c772828",
+      "entries": 11945,
+      "download_url": null,
+      "note": "Derived dictionary file: preserve existing frozen file bytes. Adapter independently compares Unicode contents with embedded model metadata. SHA is file bytes including existing Windows newline encoding.",
+      "package_path": "assets/rapid/embedded-character.txt"
+    }
+  },
+  "system_prerequisites": "Microsoft Visual C++ x64 runtime; existing Windows Malgun Gothic font",
+  "note": "No model/tokenizer/dictionary download. Fresh extraction requires explicit-consent Intel OpenMP acquisition; Microsoft runtime acquisition is conditional.",
+  "microsoft_runtime_acquisition": {
+    "bundled": false,
+    "consent_required": true,
+    "version": "14.52.37029.0",
+    "architecture": "x64",
+    "url": "https://download.visualstudio.microsoft.com/download/pr/78d061c5-9ef3-42ab-98ed-3309d1095dc4/9C02C9ED120F671B900E6B9471D890E3B2414117A7E53F4AE2E855466FA2B7C9/VC_redist.x64.exe",
+    "bytes": 18863624,
+    "sha256": "9c02c9ed120f671b900e6b9471d890e3b2414117a7e53f4ae2e855466fa2b7c9",
+    "authenticode_reported_by_main": "Valid; Microsoft",
+    "checked_at": "2026-11-19",
+    "installation_test": "see final distribution report",
+    "note": "Runtime DLL aliases are generated from recipient System32, not distributed in ZIP."
+  },
+  "first_run_component_acquisition_required": true,
+  "intel_openmp_acquisition": {
+    "bundled": false,
+    "consent_required": true,
+    "source_url": "https://download.pytorch.org/whl/cpu/torch-2.7.1%2Bcpu-cp312-cp312-win_amd64.whl",
+    "whole_wheel_bytes": 215985616,
+    "official_whole_wheel_sha256": "0bc887068772233f532b51a3e8c8cfc682ae62bef74bf4e0c53526c8b9e4138f",
+    "download_mode": "fixed HTTP ranges; inflated per-file SHA256 verification; whole wheel not downloaded",
+    "compressed_bytes": 701049,
+    "files": [
+      {
+        "name": "torch/lib/libiomp5md.dll",
+        "bytes": 1602416,
+        "sha256": "15e6f874a53cb54a8e266099c8da92484c6f50301d117f9a5443846e9ece90b5"
+      },
+      {
+        "name": "torch/lib/libiompstubs5md.dll",
+        "bytes": 43888,
+        "sha256": "92be85f03b359588d69d68b090880551c222e4a3837b1d2dedede767c3b6be2f"
+      }
+    ],
+    "original_file_redistribution_designation": "not independently confirmed; not redistributed in RC1 ZIP"
+  }
+}

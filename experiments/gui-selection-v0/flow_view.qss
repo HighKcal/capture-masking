@@ -1,0 +1,44 @@
+QWidget#flowRoot { background: #f7f8fb; color: #171c2c; }
+QWidget#flowRoot QLabel { font-family: 'Noto Sans KR'; color: #171c2c; font-size: 14px; }
+QWidget#flowRoot QLabel#pageTitle { font-size: 32px; font-weight: bold; }
+QWidget#flowRoot QLabel#cardTitle { font-size: 20px; font-weight: bold; }
+QWidget#flowRoot QLabel#footTitle { font-size: 16px; font-weight: bold; }
+QWidget#flowRoot QLabel#muted { color: #49536b; font-size: 15px; }
+QWidget#flowRoot QLabel#small { color: #49536b; font-size: 13px; }
+QWidget#flowRoot QLabel#scale { color: #49536b; background: #edf0f6; border-radius: 5px; padding: 3px 5px; font-size: 12px; }
+QWidget#flowRoot QLabel#fact { font-weight: 600; }
+QFrame#card { background: #ffffff; border: 1px solid #d9dfea; border-radius: 11px; }
+QFrame#footer { background: #ffffff; border: none; border-top: 1px solid #d9dfea; }
+QFrame#rule { background: #d9dfea; border: none; }
+QWidget#flowRoot QPushButton, QWidget#flowRoot QToolButton {
+    font-family: 'Noto Sans KR'; font-size: 14px; font-weight: 600; min-height: 32px;
+    background: white; color: #171c2c; border: 1px solid #d9dfea;
+    border-radius: 7px; padding: 2px 11px;
+}
+QWidget#flowRoot QPushButton:hover, QWidget#flowRoot QToolButton:hover { border-color: #aca9e0; }
+QWidget#flowRoot QPushButton[primary="true"] {
+    min-height: 38px; background: #4640b8; color: white; border-color: #4640b8; padding: 1px 17px;
+}
+QWidget#flowRoot QPushButton[primary="true"]:hover { background: #39339b; }
+QWidget#flowRoot QPushButton:disabled, QWidget#flowRoot QPushButton[primary="true"]:disabled {
+    background: #d9dfea; color: #59657c; border-color: #d9dfea;
+}
+QWidget#flowRoot QPushButton:focus, QWidget#flowRoot QToolButton:focus { border: 2px solid #726bce; }
+QWidget#flowRoot QPushButton[small="true"] {
+    min-height: 22px; font-size: 12px; font-weight: normal; padding: 1px 7px; border-radius: 5px;
+}
+QWidget#flowRoot QPushButton[linkButton="true"] {
+    color: #4640b8; border: 1px solid transparent; background: transparent; font-size: 13px; padding: 0px 3px;
+}
+QWidget#flowRoot QPushButton[linkButton="true"]:focus { border: 1px solid #726bce; }
+QWidget#flowRoot QToolButton::menu-indicator { image: none; }
+QWidget#flowRoot QTreeWidget { background: white; border: none; outline: 0; }
+QTextEdit#sideDescription, QTextEdit#sideDetail { background: white; color: #49536b;
+    border: none; padding: 0; font-family: 'Noto Sans KR'; font-size: 14px; }
+QTextEdit#sideDetail { font-size: 13px; }
+QWidget#flowRoot QTabWidget::pane { border-radius: 7px; border: 1px solid #d9dfea; background: #e9ecf4; }
+QWidget#flowRoot QTabBar::tab { background: #edf0f6; color: #49536b; padding: 3px 9px; font-size: 12px; }
+QWidget#flowRoot QTabBar::tab:selected { color: #302b86; background: #eeedfc; }
+QWidget#flowRoot QSplitter::handle { background: transparent; }
+QWidget#flowRoot QProgressBar { background: #e8e9f9; border: none; border-radius: 3px; }
+QWidget#flowRoot QProgressBar::chunk { background: #4640b8; border-radius: 3px; }
